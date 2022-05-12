@@ -1,0 +1,72 @@
+* {
+  font-family: "Roboto Slab", serif;
+  color: aliceblue;
+}
+::-webkit-scrollbar {
+  width: 0.5vw;
+}
+::-webkit-scrollbar-track {
+  background: #0d111a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb {
+  background: #555;
+}
+.center {
+  margin: auto;
+  text-align: center;
+}
+.content-container {
+  padding: 10vw;
+  padding-top: 15vw;
+  padding-bottom: 15vw;
+  text-align: justify;
+}
+
+.projects-item {
+  background-color: #060a12;
+  height: 25vw;
+  width: 25vw;
+  margin: 1vw;
+}
+
+p {
+  line-height: 25pt;
+  font-size: 18pt;
+}
+
+#murilo {
+  color: aliceblue;
+}
+
+#code {
+  color: gold;
+}
+
+.navbar {
+  background-color: #1f2634;
+  overflow: hidden;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #10151f;
+  margin: 0;
+  margin-top: 20vh;
+  width: 100%;
+}
+main {
+  width: 100%;
+}
+
+section {
+  width: 100%;
+}
