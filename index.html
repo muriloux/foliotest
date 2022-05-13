@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords"
         content="web, javascript, typescript, js, ts, programador, developer, back-end, front-end, backend, frontend, designer, portfólio, portfolio" />
-    <title>Portfolio | Murilo Melo - Javascript/Typescript Developer & Graphic Designer</title>
+    <title id="portfolio_title">Portfolio | Murilo Melo - Javascript/Typescript Developer & Graphic Designer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
@@ -30,16 +30,25 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                            <a id="home_menu" href="#" class="nav-link active" aria-current="page">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">ABOUT</a>
+                            <a id="about_menu" href="#about" class="nav-link">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#projects">PROJECTS</a>
+                            <a id="projects_menu" href="#projects" class="nav-link">PROJECTS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#skills">SKILLS</a>
+                            <a id="skills_menu" href="#skills" class="nav-link">SKILLS</a>
+                        </li>
+
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <img id="en" title="English" src="assets/icons/en-flag.svg" class="flag" />
+                        </li>
+                        <li class="nav-item">
+                            <img id="pt" title="Português" src="assets/icons/pt-flag.svg" class="flag" />
                         </li>
                     </ul>
                 </div>
@@ -50,11 +59,12 @@
         <section id="about">
             <div class="grid-layout">
                 <div id="about-container container">
-                    <article id="about-article">
-                        <h1 id="about-title" class="center">ABOUT ME</h1>
-                        <div class="content-container row">
-                            <p class="col">
-                                Hello, my name is Murilo Melo. I'm a Back-end and Front-end Javascript/Typescript
+                    <article id="about_article">
+                        <h1 id="about_title" class="center">ABOUT ME</h1>
+                        <div class="content-container container text-container row">
+                            <p id="about_text" class="col">
+                                Hello, my name is Murilo Melo. I'm a brazilian Back-end and Front-end
+                                Javascript/Typescript
                                 developer
                                 and Graphic Designer. After exploring the world of design, I really found myself in
                                 software
@@ -69,15 +79,15 @@
             <div class="grid-layout">
 
                 <article id="projects-article">
-                    <h1 id="projects-title" class="center">PROJECTS</h1>
-                    <div class="row content-container">
-                        <div class="projects-item col">
+                    <h1 id="projects_title" class="center">PROJECTS</h1>
+                    <div class="content-container container row">
+                        <div class="item projects-item col">
 
                         </div>
-                        <div class="projects-item col">
+                        <div class="item projects-item col">
 
                         </div>
-                        <div class="projects-item col">
+                        <div class="item projects-item col">
 
                         </div>
                     </div>
@@ -87,27 +97,34 @@
         </section>
         <section id="skills">
             <div class="grid-layout">
-                <h1 class="center">SKILLS</h1>
-                <div class="row content-container">
-                    <article>
-                    </article>
-                </div>
-            </div>
-        </section>
-        <section id="item">
-            <div class="grid-layout">
-                <div>
-                    <article>
-                        <h1 class="center">ITEM</h1>
-                        <p>
+                <article>
+                    <h1 id="skills_title" class="center">SKILLS</h1>
+                    <div class="content-container container row">
+                        <div class="item skills-item col-1">
 
-                        </p>
-                    </article>
-                </div>
+                        </div>
+                        <div class="item skills-item col-1">
+
+                        </div>
+                        <div class="item skills-item col-1">
+
+                        </div>
+                        <div class="item skills-item col-1">
+
+                        </div>
+                        <div class="item skills-item col-1">
+
+                        </div>
+                        <div class="item skills-item col-1">
+
+                        </div>
+
+                    </div>
+                </article>
             </div>
         </section>
     </main>
-
+    <script type="module" src="assets/scripts/app.js"></script>
     <script src="assets/scripts/bootstrap.min.js"></script>
 </body>
 
