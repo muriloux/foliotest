@@ -1,0 +1,24 @@
+{
+  "en": {
+    "portfolio_title": "Portfolio | Murilo Melo - Javascript/Typescript Developer & Graphic Designer",
+    "home_menu": "HOME",
+    "about_menu": "ABOUT",
+    "projects_menu": "PROJECTS",
+    "skills_menu": "SKILLS",
+    "about_title": "ABOUT ME",
+    "about_text": "Hello, my name is Murilo Melo. I'm a Back-end and Front-end Javascript/Typescript developer and Brazilian Graphic Designer. After exploring the world of design, I really found myself in software development, and by chance, the areas complemented each other!",
+    "projects_title": "PROJECTS",
+    "skills_title": "SKILLS"
+  },
+  "pt": {
+    "portfolio_title": "Portfólio | Murilo Melo - Desenvolvedor Javascript/Typescript & Designer Gráfico",
+    "home_menu": "INÍCIO",
+    "about_menu": "SOBRE",
+    "projects_menu": "PROJETOS",
+    "skills_menu": "HABILIDADES",
+    "about_title": "QUEM SOU EU",
+    "about_text": "Olá, meu nome é Murilo Melo. Sou desenvolvedor Back-end e Front-end Javascript/Typescript e Designer Gráfico brasileiro. Depois de explorar o mundo do design, eu realmente me encontrei no desenvolvimento de software e, por acaso, as áreas se complementaram!",
+    "projects_title": "PROJETOS",
+    "skills_title": "HABILIDADES"
+  }
+}
