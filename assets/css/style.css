@@ -28,40 +28,41 @@
   background: #2a303b;
 }
 
+.title {
+  padding-bottom: 3em;
+}
+
 .center {
   margin: auto;
   text-align: center;
 }
 
-.content-container {
-  flex: auto;
-  width: max-content;
-  margin: 10vw;
-  margin-bottom: 20vw;
-  padding: 0;
-  text-align: justify;
-  align-items: baseline;
+.container {
+  margin: auto;
 }
 
-.text-container {
+s .text-container {
   width: 75%;
   margin: auto;
   margin-top: 10vw;
   margin-bottom: 20vw;
 }
 
-.item {
+.square:before {
+  content: "";
   display: block;
-  height: 20em;
-  width: 20em;
-  background-color: #060a12;
-  margin: 1vw;
-  flex: none;
+  padding-top: 100%;
+  /* initial ratio of 1:1*/
 }
 
-.skills-item {
-  height: 10em;
-  width: 10em;
+.item {
+  background-color: #060a12;
+}
+
+.etc {
+  padding: auto;
+  size: 100%;
+  background-color: red;
 }
 
 .flag {
@@ -81,11 +82,6 @@
   height: 1.1rem;
 }
 
-p {
-  line-height: 25pt;
-  font-size: 18pt;
-}
-
 #murilo {
   color: aliceblue;
 }
@@ -97,21 +93,27 @@ p {
 .navbar {
   background-color: #1f2634;
   overflow: hidden;
-  position: fixed;
   padding: 0;
   margin: 0;
   top: 0;
   width: 100%;
 }
 
+p {
+  line-height: 25pt;
+  font-size: 18pt;
+  text-align: justify;
+}
+
 html {
   scroll-behavior: smooth;
+  overflow-x: auto;
+  overflow-y: auto;
+  width: 100%;
 }
 
 body {
-  overflow-x: hidden;
   background-color: #10151f;
-  margin: 0;
   margin-top: 20vh;
   width: 100%;
 }
@@ -126,6 +128,7 @@ section {
 
 article {
   padding: auto;
+  margin-bottom: 20em;
   align-items: center;
 }
 
